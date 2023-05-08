@@ -65,7 +65,8 @@ ATIO commands respond with "OK", "ERROR" or "+value".
 Example:
 
 ```
-> AT+GPIO5=1
+> AT+GPIOD5=1
+< OK
 ```
 
 ### Enable pull-up resistor for GPIO n
