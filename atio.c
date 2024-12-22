@@ -222,7 +222,7 @@ void atoi_command(char *bufcmd, int num, int val, bool is_assign, bool is_query)
 	}
 
 	// disable pull-up and pull-down
-	else if (!strncmp(bufcmd, "GPIOPO", PBUFLEN)) {
+	else if (!strncmp(bufcmd, "GPIOPN", PBUFLEN)) {
 		gpio_disable_pulls(num);
 		printf("OK\r\n");
 	}
